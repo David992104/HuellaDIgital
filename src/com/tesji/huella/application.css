@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.fondo{
+	-fx-background-image: url(img/CapturaFondo.JPG);
+}
+.boton{
+	-fx-background-color:rgb(190,251,123);
+}
+.boton2{
+	-fx-background-color: rgb(165,211,250);
+}
+.fondo2{
+	-fx-background-image: url(img/2909.JPG);
+}

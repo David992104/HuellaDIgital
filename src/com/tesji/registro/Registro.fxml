@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tesji.registro.RegistroController">
+   <children>
+      <JFXTextField fx:id="txtapellido1" alignment="TOP_LEFT" labelFloat="true" layoutX="110.0" layoutY="187.0" nodeOrientation="LEFT_TO_RIGHT" promptText="Apellido1:" />
+      <JFXTextField fx:id="txtapellido2" alignment="TOP_LEFT" labelFloat="true" layoutX="110.0" layoutY="230.0" nodeOrientation="LEFT_TO_RIGHT" promptText="Apellido2:" />
+      <JFXTextField fx:id="txtmatricula" alignment="TOP_LEFT" labelFloat="true" layoutX="110.0" layoutY="277.0" nodeOrientation="LEFT_TO_RIGHT" promptText="Matricula:" />
+      <JFXTextField fx:id="txtnombre" labelFloat="true" layoutX="110.0" layoutY="145.0" promptText="Nombre:" />
+      <ImageView fx:id="imagen" fitHeight="121.0" fitWidth="208.0" layoutX="96.0" pickOnBounds="true" preserveRatio="true" />
+      <HBox alignment="CENTER" layoutX="32.0" layoutY="312.0" prefHeight="100.0" prefWidth="321.0">
+         <children>
+            <JFXButton fx:id="btnguardar" buttonType="RAISED" onAction="#btnguardarOnAction" text="Guardar" />
+            <JFXButton fx:id="btnsalir" buttonType="RAISED" onAction="#btnsalirOnAction" prefHeight="52.0" prefWidth="182.0" text="Salir">
+               <padding>
+                  <Insets left="140.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

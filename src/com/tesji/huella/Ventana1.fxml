@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tesji.huella.HuellaController">
+   <children>
+      <ImageView fx:id="imgHuella" fitHeight="143.0" fitWidth="165.0" layoutX="118.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="48.0" layoutY="184.0" text="COLOCA TU HUELLA DIGITAL INDICE DERECHO" />
+      <JFXButton fx:id="btnRegistro" layoutX="141.0" layoutY="347.0" onAction="#btnRegistroOnAction" styleClass="boton2" stylesheets="@application.css" text="Nuevo Registro" />
+      <JFXTextArea fx:id="txtimpreciondedatos" layoutX="65.0" layoutY="223.0" prefHeight="101.0" prefWidth="243.0" />
+   </children>
+</AnchorPane>
